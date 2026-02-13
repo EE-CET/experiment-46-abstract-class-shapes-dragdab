@@ -8,7 +8,7 @@ abstract class Shape {
 class Rectangle extends Shape {
     @Override
     void numberOfSides() {
-        System.out.println("Number of sides of Rectangle is 4");
+        System.out.println("Rectangle has 4 Sides");
     }
 }
 
@@ -16,7 +16,7 @@ class Rectangle extends Shape {
 class Triangle extends Shape {
     @Override
     void numberOfSides() {
-        System.out.println("Number of sides of Triangle is 3");
+        System.out.println("Triangle has 3 sides");
     }
 }
 
@@ -24,7 +24,7 @@ class Triangle extends Shape {
 class Hexagon extends Shape {
     @Override
     void numberOfSides() {
-        System.out.println("Number of sides of Hexagon is 6");
+        System.out.println("Hexagon has 6 sides");
     }
 }
 
