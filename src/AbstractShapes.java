@@ -8,7 +8,7 @@ abstract class Shape {
 class Rectangle extends Shape {
     @Override
     void numberOfSides() {
-        System.out.println("Rectangle has 4 Sides");
+        System.out.println("Rectangle has 4 sides");
     }
 }
 
